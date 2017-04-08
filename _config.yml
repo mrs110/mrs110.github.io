@@ -7,14 +7,14 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Rene Scheele"
+title                    : "Building Things"
 title_separator          : "-"
 name                     : "Rene Scheele"
-description              : "Portfolio presenting Rene's work and interests'"
+description              : "Portfolio presenting Ren's work and interests"
 url                      : "https://mrs110.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "mrs110/mrs110.github.io"
-teaser                   : "/assets/images/cover.jpg"
+teaser                   : /assets/images/cover.jpg
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -79,9 +79,9 @@ analytics:
 author:
   name             : "Rene Scheele"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  bio              : "I am a consultant for mobile and analytics helping clients build great mobile products for their customers."
+  location         : "Germany"
+  email            : 
   uri              :
   bitbucket        :
   codepen          :
@@ -94,7 +94,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "manuelrenescheele"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
@@ -110,7 +110,8 @@ author:
 # Reading Files
 include:
   - .htaccess
-  - _pages
+  - "_pages"
+  - "assets/images/"
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
