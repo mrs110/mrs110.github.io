@@ -58,7 +58,9 @@ html, button, input, select, textarea,
         letter-spacing: normal;
 }
 
-
+.pure-button {
+    letter-spacing: normal;
+}
 
 /*
  * -- PURE FORM STYLES --
