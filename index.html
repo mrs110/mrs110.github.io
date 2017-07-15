@@ -1,1 +1,173 @@
-Hello World
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rene Scheele</title>
+
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+    <!--<![endif]-->
+
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto">
+
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/marketing.css">
+    <!--<![endif]-->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+    
+
+<body>
+    <!-- Set the header for the website -->
+    <div class="header">
+        <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="#profile" class="pure-menu-link">Profile</a></li>
+                <li class="pure-menu-item"><a href="#portfolio" class="pure-menu-link">Portfolio</a></li>
+                <li class="pure-menu-item"><a href="#cv" class="pure-menu-link">Curriculum Vitae</a></li>
+                <li class="pure-menu-item"><a href="#contact" class="pure-menu-link">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Splash page -->
+    <div class="splash-container">
+        <div class="splash">
+            <img src="img/profile.png" alt="Profile" class="splash-head">
+            <h1 class="splash-subhead">Rene Scheele</h1>
+            <p class="splash-subhead">
+                Senior Consultant - Mobile and Analytics
+            </p>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content-wrapper">
+        <!-- Profile -->
+        <div class="content" id="profile">
+            <div class="pure-g">
+                <div class="l-box pure-u-sm-1 pure-u-md-1-3 pure-u-lg-1-8 topic-icon">
+                    <i class="is-center material-icons" style="font-size: 50px">account_circle</i>
+                </div>
+                <div class="l-box pure-u-sm-1 pure-u-md-2-3 pure-u-lg-7-8">
+                    <h1>Profile</h1>
+                    <p>Experienced Mobile Consultant with a demonstrated history of working with clients on their mobile strategies looking for opportunities in product management. Strong background in analytics and business development and a MEng in Electrical &amp; Electronic Engineering and Management from Imperial College London.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio -->
+        <!-- IBM -->
+        <div class="ribbon l-box-lrg pure-g" id="portfolio">
+            <div class="l-box pure-u-sm-1 pure-u-md-1-2 pure-u-lg-2-5 portfolio-img">
+                <img alt="IBM Bluepostbox" class="portfolio-img" src="img/portfolio/ibm_ish.png">
+            </div>
+            <div class="l-box pure-u-sm-1 pure-u-md-1-2 pure-u-lg-3-5">
+
+                <h2 class="content-head content-head-ribbon">IBM Service Hub</h2>
+
+                <p>
+                    The Insurance Service Hub is a platform providing a variety of services to German, Austrian and Swiss insurance companies. Three of these services come in the form of mobile applications which aim to simplify the communication between insurance companies and the assured.
+                    I have contributed to the development, delivery, roadmap and user experience of  these apps. During the development I helped setup automatic testing. Then I moved into delivering the apps to insurance companies, working on client site. I identified new product features and discussed these with clients, development teams and potential users. I have shaped the user experience, discussing usability with our design teams and developers. 
+                    I am now a project leader coordinating work on client projects concerned with mobile apps and advising on their mobile strategy
+                </p>
+            </div>
+        </div>
+        <!-- Lets Talk -->
+        <div class="ribbon2 l-box-lrg pure-g">
+            <div class="l-box pure-u-sm-1 pure-u-md-1-2 pure-u-lg-3-5">
+
+                <h2 class="content-head content-head-ribbon">Let's Talk</h2>
+
+                <p>
+                    Let‘sTalk is a Chile-based startup revolutionizing the way customers interact with service providers. It moves the interaction between the two parties away from calls and into instant messaging. 
+                    I joined the small startup team as a developer for the web application which was designed to be the service’s entry point for service provider operators. I identified and implemented features that improved the operators’  user experience, such as information aggregation for a user (on the right of the screenshot), fast responses (open list view at the center) and replies by email that seamlessly appeared in the chat history. 
+                    I received immediate feedback on new features by our users, which helped me improve existing or envision new features for the product roadmap.
+                    In addition, I helped shape the company’s privacy policy and strategy.
+                </p>
+            </div>
+            <div class="l-box pure-u-sm-1 pure-u-md-1-2 pure-u-lg-2-5">
+                <img alt="Let's Talk Webapp" class="portfolio-img" src="img/portfolio/letstalk_webapp.png">
+            </div>
+        </div>
+        <!-- Dialog -->
+        <div class="ribbon l-box-lrg pure-g" id="portfolio">
+            <div class="l-box pure-u-sm-1 pure-u-md-1-2 pure-u-lg-2-5">
+                <img alt="Dialog's Cobra Tool" class="portfolio-img" src="img/portfolio/dialog_engineering.png">
+            </div>
+            <div class="l-box pure-u-sm-1 pure-u-md-1-2 pure-u-lg-3-5">
+
+                <h2 class="content-head content-head-ribbon">Dialog Semiconductor</h2>
+
+                <p>
+                    Cobra is a tool for engineers at Dialog Semiconductor with which they can quickly record and analyze live data coming from their ARM-based power management micro-chips. The user can easily compare current with historic data using drag and drop features to align, scale and select data plots. The results can then be saved in CSV format.
+                    I was given full autonomy to build Cobra. I started by asking future users to guide me through their data capturing and analysis process. I tried to identify their pain points and found creative ways to solve them. I presented new features and collected feedback in order to improve the user experience. As of January 2017 the tool is still in use, showing that I have succeeded in building a helpful product that users want to use .
+                    I developed the application using Python‘s PyQt library. I also contributed the firmware running on the micro-chips.
+                </p>
+            </div>
+        </div>
+
+        <!-- CV -->
+        <div class="content" id="cv">
+            <div class="pure-g">
+                <div class="l-box pure-u-1-8 pure-u-md-1-2 pure-u-lg-4-8 topic-icon">
+                    <a style="color:inherit" href="./assets/Scheele_CV.pdf">
+                        <i class="is-center material-icons" style="font-size: 50px">file_download</i>
+                    </a>
+                </div>
+                <div class="l-box pure-u-7-8 pure-u-md-1-2 pure-u-lg-4-8">
+                    <h1>Curriculum Vitae</h1>
+                    <p>You can download my CV by clicking on the icon to the left.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="content ribbon3" id="contact">
+            <h2 class="content-head is-center">Contact me</h2>
+            <div class="l-box">
+                <p class="is-center">
+                    I am happy to hear from you about exciting projects. Please don't hesitate to reach out.
+                </p>
+            </div>
+            <div class="l-box">
+                <div class="pure-g is-center">
+                    <div style="width:100%">
+                        <a class="pure-button" href="">
+                            E-mail
+                        </a>
+                    </div>
+
+                    <div style="width:100%">
+                        <a class="pure-button" href="https://de.linkedin.com/in/manuelrenescheele">
+                            Linked-In
+                        </a>
+                    </div>
+
+                    <div style="width:100%">
+                        <a class="pure-button" href="https://www.xing.com/profile/Manuel_Scheele">
+                            Xing
+                        </a>
+                    </div>
+
+                    <div style="width:100%">
+                        <a class="pure-button" href="https://twitter.com/chilean_wine">
+                            Twitter
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>                      
+    </div>
+</body>
+</html>
