@@ -90,7 +90,6 @@ html, button, input, select, textarea,
     padding: 0.5em 2em;
     border-radius: 5px;
     margin: 15px;
-    max-width: 20%;
 }
 
 a.pure-button-primary {
