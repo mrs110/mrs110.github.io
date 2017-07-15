@@ -55,6 +55,7 @@ html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
         /* Set your content font stack here: */
         font-family: "Open Sans";
+        letter-spacing: normal;
 }
 
 
@@ -82,10 +83,12 @@ html, button, input, select, textarea,
  * I want my pure-button elements to look a little different
  */
 .pure-button {
-    background-color: #1f8dd6;
+    background-color: #D08915;
     color: white;
     padding: 0.5em 2em;
     border-radius: 5px;
+    margin: 15px;
+    max-width: 20%;
 }
 
 a.pure-button-primary {
@@ -235,6 +238,11 @@ a.pure-button-primary {
 
 .ribbon2 {
     background: #10599D;
+    color: #aaa;
+}
+
+.ribbon3 {
+    background: #1576D0;
     color: #aaa;
 }
 
