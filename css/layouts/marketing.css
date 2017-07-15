@@ -29,6 +29,11 @@ label {
     height: auto;
 }
 
+.portfolio-img {
+    max-width: 60%;
+    height: auto;
+}
+
 /*
  * -- LAYOUT STYLES --
  * These are some useful classes which I will need
@@ -224,7 +229,12 @@ a.pure-button-primary {
 
 /* This is the class used for the dark-background areas. */
 .ribbon {
-    background: #2d3e50;
+    background: #579AD8;
+    color: #aaa;
+}
+
+.ribbon2 {
+    background: #10599D;
     color: #aaa;
 }
 
