@@ -189,6 +189,15 @@ a.pure-button-primary {
     opacity: 0.9;
 }
 
+/* Portfolio Imgs */ 
+.img-box img{
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+	display: block;
+}
+
 /*
  * -- CONTENT STYLES --
  * This represents the content area (everything below the blue section)
