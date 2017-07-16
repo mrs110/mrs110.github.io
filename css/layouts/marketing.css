@@ -58,10 +58,6 @@ html, button, input, select, textarea,
         letter-spacing: normal;
 }
 
-.pure-button {
-    letter-spacing: normal;
-}
-
 /*
  * -- PURE FORM STYLES --
  * Style the form inputs and labels
@@ -85,11 +81,12 @@ html, button, input, select, textarea,
  * I want my pure-button elements to look a little different
  */
 .pure-button {
-    background-color: #D08915;
-    color: white;
+    background-color: #AA6317;
+    color: #F7D6B2;
     padding: 0.5em 2em;
     border-radius: 5px;
     margin: 15px;
+    letter-spacing: normal;
 }
 
 a.pure-button-primary {
@@ -145,6 +142,14 @@ a.pure-button-primary {
     align-items: center;
 }
 
+.topic-icon a {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+	display: block;
+}
+
 /*
  * -- SPLASH STYLES --
  * This is the blue top section that appears on the page.
@@ -187,6 +192,15 @@ a.pure-button-primary {
     color: white;
     letter-spacing: 0.05em;
     opacity: 0.9;
+}
+
+/* Portfolio Imgs */ 
+.img-box img{
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+	display: block;
 }
 
 /*
@@ -233,18 +247,18 @@ a.pure-button-primary {
 
 /* This is the class used for the dark-background areas. */
 .ribbon {
-    background: #579AD8;
-    color: #aaa;
+    background: #67BBF5;
+    color: #325A75;
 }
 
 .ribbon2 {
-    background: #10599D;
-    color: #aaa;
+    background: #5294C2;
+    color: #36424A;
 }
 
 .ribbon3 {
-    background: #1576D0;
-    color: #aaa;
+    background: #B2DBF7;
+    color: #3D3D3D;
 }
 
 /* This is the class used for the footer */
