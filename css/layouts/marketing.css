@@ -81,8 +81,8 @@ html, button, input, select, textarea,
  * I want my pure-button elements to look a little different
  */
 .pure-button {
-    background-color: #AA6317;
-    color: #F7D6B2;
+    background-color: #B2F7BC;
+    color: #81c48c;
     padding: 0.5em 2em;
     border-radius: 5px;
     margin: 15px;
