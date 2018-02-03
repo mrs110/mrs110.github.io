@@ -1,0 +1,31 @@
+// White theme
+
+// Color variables
+$black: #2B2826;
+$dark-blue: #2d3e50;
+$light-blue: #6FBEF3; 
+$gray-dark: #423F38;
+$gray: #A09992;
+$gray-light: #D7D5D1;
+$white: #fff;
+$burgundy: #B54545;
+// Config
+$color-background: $white !default;
+$color-foreground: $dark-blue !default;
+$color-title: $dark-blue !default;
+$color-body-text: $dark-blue !default;
+$color-text-accent: $gray-dark !default;
+$color-code: $gray-dark !default;
+$color-nav-link: $light-blue !default;
+$color-primary-link: $dark-blue !default;
+$color-primary-underline: $gray !default;
+$color-border: $gray-light !default;
+
+
+// Import sass partials (used in all themes)
+@import
+        "variables",
+        "purecss-marketing-old-ie.css",
+        "purecss-marketing.css",
+        "components"
+;
