@@ -18,6 +18,7 @@ title: Rene's Blog
 description: welcome!
 baseurl: ""
 url: "http://www.scheelerene.com"
+permalink: blog/:categories/:year/:month/:day/:title.html
 
 # Build settings
 markdown: kramdown

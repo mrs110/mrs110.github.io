@@ -1,17 +1,17 @@
+---
+title: blog
+layout: default
+---
+
 <!DOCTYPE html>
 
-<html>
-  <body>
-    {% include menu.html %}
-    <div class="container mx-auto px-2 py-2" style="padding-top: 10px">
-      {% for post in site.posts %}
-        {% assign mod = forloop.index | modulo: 2 %}
-        {% if mod == 0 %}
-          {% include post_block.html %}
-        {% else %}
-          {% include post_block2.html %}
-        {% endif %}
-      {% endfor %}
-    </div>
-  </body>
-</html>
+<div class="container mx-auto px-2 py-2">
+  {% for post in site.posts %}
+    {% assign mod = forloop.index | modulo: 2 %}
+    {% if mod == 0 %}
+      {% include post_block.html %}
+    {% else %}
+      {% include post_block2.html %}
+    {% endif %}
+  {% endfor %}
+</div>

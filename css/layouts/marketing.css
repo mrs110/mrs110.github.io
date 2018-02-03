@@ -51,6 +51,11 @@ label {
     text-align: center;
 }
 
+.center {
+    margin-left: auto;
+    margin-right: auto; 
+}
+
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
         /* Set your content font stack here: */
