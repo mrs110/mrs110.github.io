@@ -6,4 +6,5 @@ layout: portfolio
 redirect_from:
 - /gmail
 - /esade
+- /others
 ---
