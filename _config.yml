@@ -24,6 +24,7 @@ markdown: kramdown
 #theme: jekyll-athena
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 # exclude:
 #   - Gemfile
 #   - Gemfile.lock
